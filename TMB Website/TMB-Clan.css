@@ -1,0 +1,37 @@
+.cropped {
+	width: 100%;
+	height: 250px;
+    overflow: hidden;
+	display: flex;
+	align-items: flex-start;
+}
+
+.Picture1 {		/*Henry Spawn */
+	width: 100%;
+	height: auto;
+	transform: translateY(-250px);
+}
+
+.Picture2 {		/*Janos Spawn */
+	width: 100%;
+	height: auto;
+	transform: translateY(-270px);
+}
+
+.Picture3 {		/*Lobby Spawn */
+	width: 100%;
+	height: auto;
+	transform: translateY(-700px);
+}
+
+.Picture4 {		/*Janos Portal */
+	width: 100%;
+	height: auto;
+	transform: translateY(-200px);
+}
+
+.Picture5 {		/*Kolosseum*/
+	width: 100%;
+	height: auto;
+	transform: translateY(-350px);
+}
