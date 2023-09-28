@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TMB Clan</title>
+	<link rel="Icon"; href="Bilder/TMB_STICK.png">
+	<link rel="stylesheet"; href="style.css">
+	<link rel="stylesheet"; href="TMB-Clan.css">
+</head>
+
+<body>
+	
+	<nav>
+		<div class="flex-container">
+			<div class="logo">
+				<a href= "https://clan-tmb.de/" > <img height="60" src="Bilder/TMB_STICK.png"> </a>
+			</div>
+			<div class="titel">
+				<a class="nolink" href="https://clan-tmb.de/"> TMB-Netzwerk </a>
+			</div>
+			<div class="navigator">
+				<a class="nav" href= "clan-tmb-de.html"> Home </a>
+				<div class="dropdown">
+					<div class="nav"> 
+						<a class="nav" href="TMB-Craft.html"> TMB-Craft </a>
+					</div>
+					<div class="dropdown-content">
+						<a href="TMB-Craft.html#TMBCraft1"> TMB-Craft 1 </a>
+						<a href="TMB-Craft.html#TMBCraft2"> TMB-Craft 2 </a>
+						<a href="TMB-Craft.html#TMBCraft3"> TMB-Craft 3 </a>
+						<a href="TMB-Craft.html#TMBCraft4"> TMB-Craft 4 </a>
+						<a href="TMB-Craft.html#TMBCraft5"> TMB-Craft 5 </a>
+					</div>
+				</div>
+				<a class="nav" href= "Impressum.html"> Impressum </a>
+			</div>
+		</div>
+	</nav>
+	
+	<article>
+		<div class="w3-content w3-display-container">
+			<div class="cropped">
+				<img class="Picture1 Bilder" src="Bilder/Bauserver/HenrySpawn.png" style="width:100%">
+				<img class="Picture2 Bilder" src="Bilder/Bauserver/JanosSpawn.png" style="width:100%">
+				<img class="Picture3 Bilder" src="Bilder/Bauserver/LobbySpawn.png" style="width:100%">
+				<img class="Picture4 Bilder" src="Bilder/Bauserver/JanosPortal.png" style="width:100%">
+				<img class="Picture5 Bilder" src="Bilder/Bauserver/Kolloseum.png" style="width:100%">
+			</div>
+			<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+		<script>
+			var slideIndex = 0;
+			carousel();
+
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("Bilder");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > x.length) {slideIndex = 1}
+				x[slideIndex-1].style.display = "block";
+				setTimeout(carousel, 5000); // Change image every 5 seconds
+			}
+		</script>
+		
+	</article>
+	
+</body>
+
+</html>
