@@ -1,0 +1,27 @@
+
+article {
+	padding-left:200px;
+	padding-right:200px;
+	margin-top: 100px;
+}
+
+/*--------------------------------------------------*/
+/*ALIGNMENT*/
+.center {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/*--------------------------------------------------*/
+/*FONTS*/
+.impressum {
+	font-size: 4rem;
+	font-family: 'Lato', sans-serif;
+}
+
+.impressumschrift{
+	font-size: 1rem;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
