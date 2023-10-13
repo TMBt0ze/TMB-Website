@@ -1,0 +1,90 @@
+
+article {
+	margin-top: 60px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
+
+
+table, th, td {
+	border: 20px;
+	border-collapse: collapse;
+	margin-bottom: 100px;
+
+}
+
+tr {
+	vertical-align: top;
+}
+
+
+
+}
+/*--------------------------------------------------*/
+/*BOXES*/
+
+.cardimg {
+	display: flex;
+	margin-top: 20px;
+	justify-content:center;
+}
+
+.cardbody {
+	display: flex;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center
+}
+
+.team {
+	display: flex;
+}
+
+.teammember {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #BDBDBD;
+	border-radius: 4px;
+	transition: transform .2s;
+	height: 100%;
+	padding-top: 20px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: #424242;
+}
+
+.teammember:hover {
+	transform: scale(1.02);
+
+}
+
+/*--------------------------------------------------*/
+/*FONTS*/
+.ueberschrift {
+	font-size: 3.5rem;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	text-decoration: underline;
+}
+
+.teamschrift {
+	font-size: 1.2rem;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+/*--------------------------------------------------*/
+/*ALIGNMENT*/
+.tablecenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+/*--------------------------------------------------*/
+/*STYLE*/
