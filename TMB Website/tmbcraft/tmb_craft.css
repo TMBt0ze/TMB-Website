@@ -66,6 +66,7 @@ ul.list{
 	width: 100%;
 	justify-content: center;
 	text-align: center;
+	text-decoration: underline;
 }
 
 .secnavigator{
@@ -82,7 +83,7 @@ ul.list{
 
 .secnav{
 	display:flex;
-	width: 20%;
+	width: 15%;
 	height: 100%;
 	flex-direction: column;
 	position: fixed;
@@ -90,8 +91,8 @@ ul.list{
 
 .inhalt{
 	display:flex;
-	flex-basis: 80%;
-	margin-left: 20%;
+	flex-basis: 85%;
+	margin-left: 15%;
 	padding-left: 20px;
 	border-left: 1px solid white;
 }
