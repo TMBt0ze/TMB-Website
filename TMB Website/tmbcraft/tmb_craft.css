@@ -5,6 +5,7 @@ article {
 	margin-left: 20px;
 	margin-right: 20px;
 	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 footer {
@@ -15,28 +16,8 @@ footer {
 
 /*--------------------------------------------------*/
 /*FONTS*/
-.ueberschrift {
-	font-size: 3.5rem;
-	color: #ffffff;
-	font-family: 'Lato', sans-serif;
-	text-decoration: underline;
-}
 
-.ueberschrift2 {
-	font-size: 2.5rem;
-	color: #ffffff;
-	font-family: 'Lato', sans-serif;
-	text-decoration: underline;
-}
-
-.ueberschrift3 {
-	font-size: 1.5rem;
-	color: #ffffff;
-	font-family: 'Lato', sans-serif;
-	text-decoration: underline;
-}
-
-ul.list{
+p.list{
 	color: white;
 	font-family: 'Lato', sans-serif;
 	font-size: 1.5rem;
